@@ -1,0 +1,27 @@
+// @import 'libs/bootstrap-reboot.min';
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+
+@import 'blocks/mixins';
+@import 'blocks/promo';
+@import 'blocks/ghands';
+@import 'blocks/buttons';
+@import 'blocks/titles';
+@import 'blocks/find';
+@import 'blocks/ghands2';
+@import 'blocks/black';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+
+
+
+
+

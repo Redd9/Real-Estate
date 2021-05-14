@@ -1,0 +1,55 @@
+.btn {
+    width: 210px;
+    height: 50px;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.427179px;
+    a {
+        color: black;
+        margin-right: 9px;
+    }
+}
+
+.btn-black {
+    display: block;
+    width: 210px;
+    height: 70px;
+    background: black;
+    border-radius: 0px 18px 0px 0px;
+    text-align: center;
+    padding-top: 22px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.427179px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    svg {
+        margin-left: 9px;
+    }
+}
+
+.btn-orange {
+    display: block;
+    width: 210px;
+    height: 70px;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    text-align: center;
+    padding-top: 22px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.427179px;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    svg {
+        margin-left: 9px;
+    }
+}

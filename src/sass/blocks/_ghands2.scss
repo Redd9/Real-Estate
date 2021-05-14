@@ -1,0 +1,39 @@
+.ghands2 {
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__descr {
+        padding: 90px 70px 0 50px;
+    }
+
+    &__img {
+        background: url("../img/ghands2.png") no-repeat 50%/cover;
+        width: 700px;
+        height: 700px;
+        top: -100px;
+        position: relative;
+    }
+
+    &__divider {
+        @include divider;
+    }
+
+    &__title {
+        margin-top: 20px; 
+    }
+
+    &__txt {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 28px;
+        opacity: 0.6;
+        width: 430px;
+    }
+
+    &__btn {
+        margin-top: 30px;
+    }
+}

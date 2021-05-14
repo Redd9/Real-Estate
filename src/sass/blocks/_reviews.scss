@@ -1,0 +1,108 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 680px;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    &__item, &__item-active {
+        height: 430px;
+    }
+}
+
+// NOT ACtIVE ITEM
+
+.reviews__item {
+    &_divider {
+        visibility: hidden;
+        @include divider;
+        width: 100%;
+    }
+    
+    &_txt {
+        visibility: hidden;
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: -0.603077px;
+    }
+
+    &_footer {
+        display: flex;
+        padding-left: 40px;
+        align-items: center;
+        height: 140px;
+        margin-top: 60px;
+        color: white;
+        
+        img {
+            width: 49px;
+            object-fit: contain;
+            margin-right: 20px;
+        }
+
+        &_name {
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: -0.376923px;
+            color: black;
+        }
+
+        &_status {
+            font-size: 15px;
+            color: #979797;
+        }
+    }
+}
+
+// ACtIVE ITEM
+
+.reviews__item-active {
+    &_divider {
+        @include divider;
+        width: 100%;
+    }
+    
+    &_txt {
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: -0.603077px;
+    }
+
+    &_footer {
+        display: flex;
+        padding-left: 40px;
+        align-items: center;
+        height: 140px;
+        margin-top: 60px;
+        background: black;
+        color: white;
+        
+        img {
+            width: 49px;
+            object-fit: contain;
+            margin-right: 20px;
+        }
+
+        &_name {
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: -0.376923px;
+        }
+
+        &_status {
+            font-size: 15px;
+            color: #979797;
+        }
+    }
+}
