@@ -1,0 +1,23 @@
+.carousel {
+    height: 620px;
+
+    &__wrapper {
+        width: 1070px;
+        height: 720px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    &__inner {
+        width: 700px;
+        height: 620px;
+        background: wheat;
+        margin-right: 20px;
+    }
+
+    &__form {
+        width: 335px;
+        height: 520px;
+        background: rgb(137, 122, 221);
+    }
+}

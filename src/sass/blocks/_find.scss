@@ -77,31 +77,4 @@
         height: 100px;
     }
 
-    &_footer {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        border-top: 1px solid #E4E4E4;
-        color: black;
-    }
-}
-
-.find__houses_footer {
-    &_item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 59px;
-        border-right: 1px solid #E4E4E4;
-        &:last-child {
-            border-right: none;
-        }
-
-        span {
-            margin-left: 10px;
-            font-weight: bold;
-            font-size: 17px;
-            line-height: 22px;
-            letter-spacing: -0.427179px;
-        }
-    }
 }

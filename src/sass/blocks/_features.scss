@@ -1,0 +1,41 @@
+.features {
+    &__wrapper {
+        margin-top: 40px;
+        width: 700px;
+        height: 350px;
+        background: #F2F2F2;
+        box-shadow: 0px 20px 60px -7px rgba(0, 0, 0, 0.36);
+        border-radius: 30px; 
+    }
+
+    &__footer {
+        padding: 30px;
+        border-top: 1px solid #E4E4E4;
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 50px;
+    }
+
+    &__list {
+        list-style-type: none;
+
+        li {
+            font-size: 15px;
+            line-height: 22px;
+            opacity: 0.6;
+            padding-bottom: 20px;
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                background: url("../icons/CheckYellow.svg");
+                left: -30px;
+                top: 2px;
+            }
+        }
+    }
+}

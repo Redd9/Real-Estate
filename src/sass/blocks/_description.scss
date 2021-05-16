@@ -1,0 +1,23 @@
+.description {
+    &__wrapper {
+        margin-top: 40px;
+        width: 700px;
+        height: 400px;
+        background: #F2F2F2;
+        box-shadow: 0px 20px 60px -7px rgba(0, 0, 0, 0.36);
+        border-radius: 30px; 
+    }
+
+    &__txt {
+        width: 100%;
+        font-size: 15px;
+        line-height: 22px;  
+        opacity: 0.6;
+    }
+
+    &__footer {
+        padding: 30px;
+        border-top: 1px solid #E4E4E4;
+        color: black;
+    }
+}

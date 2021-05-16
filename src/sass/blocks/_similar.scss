@@ -1,0 +1,12 @@
+.similar {
+    height: 570px;
+    margin: 150px 0 150px 180px;
+
+    &__divider {
+        @include divider;
+    }
+
+    &__title {
+        margin-top: 20px;
+    }
+}
